@@ -1,0 +1,891 @@
+<pcml xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" experiment="Synthesis of N-(1-Naphthoyl)-4-methylbenzenesulfonohydrazide - ACETONITRILE SOLVENT - Original" version="1.3.4" xsi:noNamespaceSchemaLocation="https://schemas.deepmatter.tech/pcml-1.3.4.xsd">
+  <description/>
+  <meta>
+    <owner>Deepmatter</owner>
+    <author>Deepmatter</author>
+    <version>1</version>
+    <version-author>Deepmatter</version-author>
+    <version-owner>Deepmatter</version-owner>
+    <publication>Org. Synth. 2018, 95, 276-288</publication>
+    <custom-tag>Original</custom-tag>
+    <creation-date>03/03/2020</creation-date>
+  </meta>
+  <synopsis>Synthesis of N-(1-Naphthoyl)-4-methylbenzenesulfonohdrazide</synopsis>
+  <chemistry>
+    <reaction-scheme>
+      <reaction-kind/>
+      <reaction-conditions/>
+    </reaction-scheme>
+    <chemicals>
+      <chemical role="starting-material" vol="1.180" volunit="ml" moles="0.080" molweight="190.630">
+        <name>1-Naphthoyl chloride</name>
+      </chemical>
+      <chemical>
+        <name>N-(4-methylbenzenesulfonyl)naphthalene-1-carbohydrazide</name>
+      </chemical>
+      <chemical role="reagent" mass="0.183" massunit="g" moles="0.002" molweight="122.000">
+        <name>4-dimethylaminopyridine</name>
+      </chemical>
+      <chemical role="reagent" mass="1.400" massunit="g" moles="0.007" molweight="186.670">
+        <name>p-toluenesulfonyl hydrazide</name>
+      </chemical>
+      <chemical role="solvent" vol="50.000" volunit="ml">
+        <name>dichloromethane</name>
+      </chemical>
+      <chemical role="reagent" vol="1.580" volunit="ml" moles="0.113">
+        <name>triethylamine</name>
+      </chemical>
+      <chemical role="quenching-solution" vol="10.000" volunit="ml">
+        <name>saturated NH&#8324;Cl solution</name>
+      </chemical>
+      <chemical role="washing-solution" vol="30.000" volunit="ml">
+        <name>water</name>
+      </chemical>
+      <chemical role="washing-solution" vol="20.000" volunit="ml">
+        <name>10% aqueous citric acid solution</name>
+      </chemical>
+      <chemical role="washing-solution" vol="10.000" volunit="ml">
+        <name>saturated sodium chloride solution</name>
+      </chemical>
+      <chemical role="drying-agent" mass="3.000" massunit="g">
+        <name>sodium sulfate</name>
+      </chemical>
+      <chemical role="solvent" vol="35.000" volunit="ml">
+        <name>dichloromethane</name>
+      </chemical>
+      <chemical role="solvent" vol="25.000" volunit="ml">
+        <name>hexane</name>
+      </chemical>
+      <chemical role="reagent" mass="1.110" massunit="mg">
+        <name>1,3,5-trimethoxybenzene</name>
+      </chemical>
+      <chemical role="solvent" vol="50.000" volunit="ml">
+        <name>acetonitrile</name>
+      </chemical>
+    </chemicals>
+  </chemistry>
+  <safety>
+    <chemical>
+      <name>1-Naphthoyl chloride</name>
+      <safetycode>
+        <code>H314</code>
+        <description>Causes severe skin burns and eye damage</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+      <safetycode>
+        <code>P310</code>
+        <description>Immediately call a POISON CENTER or doctor/physician</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>N-(4-methylbenzenesulfonyl)naphthalene-1-carbohydrazide</name>
+      <safetycode>
+        <code>H-Unknown</code>
+        <description>Unknown</description>
+      </safetycode>
+      <safetycode>
+        <code>P-Unknown</code>
+        <description>Unknown - Treat as harmful</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>4-dimethylaminopyridine</name>
+      <safetycode>
+        <code>H301</code>
+        <description>Toxic if swallowed</description>
+      </safetycode>
+      <safetycode>
+        <code>H310</code>
+        <description>Fatal in contact with skin</description>
+      </safetycode>
+      <safetycode>
+        <code>H315</code>
+        <description>Causes skin irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H319</code>
+        <description>Causes serious eye irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H335</code>
+        <description>May cause respiratory irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P301 + P310 + P330</code>
+        <description>IF SWALLOWED: Immediately call a POISON CENTER/doctor. Rinse mouth.</description>
+      </safetycode>
+      <safetycode>
+        <code>P302 + P352</code>
+        <description>IF ON SKIN: Wash with plenty of soap and water</description>
+      </safetycode>
+      <safetycode>
+        <code>P310</code>
+        <description>Immediately call a POISON CENTER or doctor/physician</description>
+      </safetycode>
+      <safetycode>
+        <code>P304 + P340 + P312</code>
+        <description>IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER/doctor if you feel unwell.</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+      <safetycode>
+        <code>P337 + P313</code>
+        <description>If eye irritation persists: Get medical advice/attention</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>p-toluenesulfonyl hydrazide</name>
+      <safetycode>
+        <code>H242</code>
+        <description>Heating may cause a fire</description>
+      </safetycode>
+      <safetycode>
+        <code>H301</code>
+        <description>Toxic if swallowed</description>
+      </safetycode>
+      <safetycode>
+        <code>P301 + P310</code>
+        <description>IF SWALLOWED: Immediately call a POISON CENTER or doctor/physician</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>dichloromethane</name>
+      <safetycode>
+        <code>H315</code>
+        <description>Causes skin irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H319</code>
+        <description>Causes serious eye irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H336</code>
+        <description>May cause drowsiness or dizziness</description>
+      </safetycode>
+      <safetycode>
+        <code>H351</code>
+        <description>Suspected of causing cancer</description>
+      </safetycode>
+      <safetycode>
+        <code>P201</code>
+        <description>Obtain special instructions before use</description>
+      </safetycode>
+      <safetycode>
+        <code>P261</code>
+        <description>Avoid breathing dust/fume/gas/mist/vapours/spray</description>
+      </safetycode>
+      <safetycode>
+        <code>P264</code>
+        <description>Wash &#8230; thoroughly after handling</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P304 + P340 + P312</code>
+        <description>IF INHALED: Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER/doctor if you feel unwell.</description>
+      </safetycode>
+      <safetycode>
+        <code>P308 + P313</code>
+        <description>IF exposed or concerned: Get medical advice/attention</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>triethylamine</name>
+      <safetycode>
+        <code>H225</code>
+        <description>Highly flammable liquid and vapour</description>
+      </safetycode>
+      <safetycode>
+        <code>H302</code>
+        <description>Harmful if swallowed</description>
+      </safetycode>
+      <safetycode>
+        <code>H311</code>
+        <description>Toxic in contact with skin</description>
+      </safetycode>
+      <safetycode>
+        <code>H331</code>
+        <description>Toxic if inhaled</description>
+      </safetycode>
+      <safetycode>
+        <code>H314</code>
+        <description>Causes severe skin burns and eye damage</description>
+      </safetycode>
+      <safetycode>
+        <code>H335</code>
+        <description>May cause respiratory irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>P210</code>
+        <description>Keep away from heat/sparks/open flames/hot surfaces. &#8212; No smoking</description>
+      </safetycode>
+      <safetycode>
+        <code>P261</code>
+        <description>Avoid breathing dust/fume/gas/mist/vapours/spray</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P303 + P361 + P353</code>
+        <description>IF ON SKIN (or hair): Remove/Take off immediately all contaminated clothing. Rinse skin with water/shower</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+      <safetycode>
+        <code>P370 + P378</code>
+        <description>In case of fire: Use &#8230; for extinction</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>saturated NH&#8324;Cl solution</name>
+      <safetycode>
+        <code>H315</code>
+        <description>Causes skin irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H318</code>
+        <description>Causes serious eye damage</description>
+      </safetycode>
+      <safetycode>
+        <code>H412</code>
+        <description>Harmful to aquatic life with long lasting effects</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+      <safetycode>
+        <code>P310</code>
+        <description>Immediately call a POISON CENTER or doctor/physician</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>water</name>
+      <safetycode>
+        <code>H-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+      <safetycode>
+        <code>S-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>10% aqueous citric acid solution</name>
+      <safetycode>
+        <code>H319</code>
+        <description>Causes serious eye irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>P264</code>
+        <description>Wash &#8230; thoroughly after handling</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+      <safetycode>
+        <code>P337 + P313</code>
+        <description>If eye irritation persists: Get medical advice/attention</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>saturated sodium chloride solution</name>
+      <safetycode>
+        <code>H-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+      <safetycode>
+        <code>S-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>sodium sulfate</name>
+      <safetycode>
+        <code>H-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+      <safetycode>
+        <code>S-N/A</code>
+        <description>Not a hazardous substance or mixture</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>hexane</name>
+      <safetycode>
+        <code>H225</code>
+        <description>Highly flammable liquid and vapour</description>
+      </safetycode>
+      <safetycode>
+        <code>H304</code>
+        <description>May be fatal if swallowed and enters airways</description>
+      </safetycode>
+      <safetycode>
+        <code>H315</code>
+        <description>Causes skin irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H336</code>
+        <description>May cause drowsiness or dizziness</description>
+      </safetycode>
+      <safetycode>
+        <code>H361d</code>
+        <description>Suspected of damaging the unborn child</description>
+      </safetycode>
+      <safetycode>
+        <code>H373</code>
+        <description>May cause damage to organs through prolonged or repeated exposure</description>
+      </safetycode>
+      <safetycode>
+        <code>H411</code>
+        <description>Toxic to aquatic life with long lasting effects</description>
+      </safetycode>
+      <safetycode>
+        <code>P201</code>
+        <description>Obtain special instructions before use</description>
+      </safetycode>
+      <safetycode>
+        <code>P210</code>
+        <description>Keep away from heat/sparks/open flames/hot surfaces. &#8212; No smoking</description>
+      </safetycode>
+      <safetycode>
+        <code>P273</code>
+        <description>Avoid release to the environment</description>
+      </safetycode>
+      <safetycode>
+        <code>P301 + P310</code>
+        <description>IF SWALLOWED: Immediately call a POISON CENTER or doctor/physician</description>
+      </safetycode>
+      <safetycode>
+        <code>P308 + P313</code>
+        <description>IF exposed or concerned: Get medical advice/attention</description>
+      </safetycode>
+      <safetycode>
+        <code>P331</code>
+        <description>Do NOT induce vomiting</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>1,3,5-trimethoxybenzene</name>
+      <safetycode>
+        <code>H302</code>
+        <description>Harmful if swallowed</description>
+      </safetycode>
+      <safetycode>
+        <code>H319</code>
+        <description>Causes serious eye irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>P305 + P351 + P338</code>
+        <description>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing</description>
+      </safetycode>
+    </chemical>
+    <chemical>
+      <name>acetonitrile</name>
+      <safetycode>
+        <code>H225</code>
+        <description>Highly flammable liquid and vapour</description>
+      </safetycode>
+      <safetycode>
+        <code>H302</code>
+        <description>Harmful if swallowed</description>
+      </safetycode>
+      <safetycode>
+        <code>H312</code>
+        <description>Harmful in contact with skin</description>
+      </safetycode>
+      <safetycode>
+        <code>H319</code>
+        <description>Causes serious eye irritation</description>
+      </safetycode>
+      <safetycode>
+        <code>H332</code>
+        <description>Harmful if inhaled</description>
+      </safetycode>
+      <safetycode>
+        <code>P210</code>
+        <description>Keep away from heat/sparks/open flames/hot surfaces. &#8212; No smoking</description>
+      </safetycode>
+      <safetycode>
+        <code>P233</code>
+        <description>Keep container tightly closed</description>
+      </safetycode>
+      <safetycode>
+        <code>P240</code>
+        <description>Ground/bond container and receiving equipment</description>
+      </safetycode>
+      <safetycode>
+        <code>P241</code>
+        <description>Use explosion-proof electrical/ventilating/lighting/&#8230;/equipment</description>
+      </safetycode>
+      <safetycode>
+        <code>P242</code>
+        <description>Use only non-sparking tools</description>
+      </safetycode>
+      <safetycode>
+        <code>P243</code>
+        <description>Take precautionary measures against static discharge</description>
+      </safetycode>
+      <safetycode>
+        <code>P261</code>
+        <description>Avoid breathing dust/fume/gas/mist/vapours/spray</description>
+      </safetycode>
+      <safetycode>
+        <code>P264</code>
+        <description>Wash &#8230; thoroughly after handling</description>
+      </safetycode>
+      <safetycode>
+        <code>P270</code>
+        <description>Do no eat, drink or smoke when using this product</description>
+      </safetycode>
+      <safetycode>
+        <code>P271</code>
+        <description>Use only outdoors or in a well-ventilated area</description>
+      </safetycode>
+      <safetycode>
+        <code>P280</code>
+        <description>Wear protective gloves/protective clothing/eye protection/face protection</description>
+      </safetycode>
+      <safetycode>
+        <code>P301 + P312</code>
+        <description>IF SWALLOWED: Call a POISON CENTER or doctor/physician if you feel unwell</description>
+      </safetycode>
+      <safetycode>
+        <code>P302 + P352</code>
+        <description>IF ON SKIN: Wash with plenty of soap and water</description>
+      </safetycode>
+      <safetycode>
+        <code>P501</code>
+        <description>Dispose of contents/container to &#8230;</description>
+      </safetycode>
+    </chemical>
+  </safety>
+  <reaction-conditions>
+    <inner>
+      <temperature unit="C" value="0"/>
+    </inner>
+    <outer>
+      <stirring unit="rpm" value="1200"/>
+      <temperature unit="C" value="0"/>
+    </outer>
+  </reaction-conditions>
+  <labware>
+    <equipment library="" id="exnwuiue6u">
+      <name>Lab coat</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="tktscxv1p5">
+      <name>Safety goggles</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="ouoqn3tg11">
+      <name>Gloves</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="o3mbvh0ni9">
+      <name>Balance</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="3t0bw0t03f">
+      <name>DeviceX</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="utrrcedkjq">
+      <name>HPLC</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="g3tphhtt8a">
+      <name>MS</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="jxxxha179o">
+      <name>NMR</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="r3ygy56j3e">
+      <name>Oven</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="r18gihg4p0">
+      <name>Schlenk line</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="ljv34qguvi">
+      <name>UV torch</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="j8pcioybv1">
+      <name>UV lamp</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="c56tcivukn">
+      <name>TLC</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="4g3hg2ha2g">
+      <name>Thermometer</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="6ilmijnv7a">
+      <name>Argon gas bottle</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <equipment library="" id="6vjfq6q2mq">
+      <name>Stirrer plate</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>equipment</type>
+      <vendor/>
+      <step/>
+    </equipment>
+    <reactionware library="" id="ul5kfgdw4u">
+      <name>Standard dropping funnel</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="uv2niqoq5g">
+      <name>Glass funnel</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="s5x0w1br29">
+      <name>Three-neck round bottom flask</name>
+      <quantity>1</quantity>
+      <size>1 L</size>
+      <type>reactionware</type>
+      <vendor/>
+      <step>synthesis</step>
+    </reactionware>
+    <reactionware library="" id="l40srs1214">
+      <name>Measuring cylinder</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="nocsu7hh9e">
+      <name>Standard stainless steel spatula</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="kvxc12kedk">
+      <name>Plastic weighing boat</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="ohxpa2kjdb">
+      <name>TLC tank</name>
+      <quantity>1</quantity>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="txprkyrno8">
+      <name>Cylindrical stirrer bar</name>
+      <quantity>1</quantity>
+      <size>3.0 cm</size>
+      <type>reactionware</type>
+      <vendor/>
+      <step/>
+    </reactionware>
+    <reactionware library="" id="mk0n3k0nt3">
+      <name>Glass sample vial</name>
+      <quantity/>
+      <size/>
+      <type>reactionware</type>
+      <vendor/>
+      <step>synthesis</step>
+    </reactionware>
+  </labware>
+  <step type="synthesis" label="" id="657c0167-e2e0-48a5-8a6c-6e0385097c86">
+    <description>Synthesis of N-(1-Naphthoyl)-4-methylbenzenesulfonohydrazide</description>
+    <group id="ef3a2d5a-3e66-4766-89f1-e23f8ca71bda">
+      <title>Setup preparation</title>
+      <operation id="4528888f-6a94-4801-b04e-fdc0907b7a9c">
+        <text>Rinse a clean, oven-dried, 100 mL three-neck round bottom flask with dichloromethane. Secure the flask on top of a stirring mantle, with a stirrer, device X and rubber septum stoppers.</text>
+        <troubleshooting>If the sensors don't appear after several minutes on the Graph Tab, switch the sensors off and on again and wait several minutes.</troubleshooting>
+      </operation>
+      <operation id="ad6cca26-9f72-4a65-8654-6d2bf8d9c66f">
+        <text>Evacuate and refill the flask with nitrogen twice.</text>
+        <precondition>Oven dry the glassware prior to use.</precondition>
+      </operation>
+    </group>
+    <group id="fa2b441f-20ed-4003-82eb-66e0f08017f6">
+      <title>Reaction preparation</title>
+      <operation id="46fc6ef6-7425-48f8-b2f2-e6c5bf9fdcf9">
+        <text>Weigh 0.183 g of 4-dimethylaminopyridine and 1.4 g of p-toluenesulfonyl hydrazide. Measure 50 mL of acetonitrile and transfer all into the reaction flask.</text>
+        <chemical role="reagent" mass="0.183" massunit="g" moles="0.002" molweight="122.000">
+          <name>4-dimethylaminopyridine</name>
+        </chemical>
+        <chemical role="reagent" mass="1.400" massunit="g" moles="0.007" molweight="186.670">
+          <name>p-toluenesulfonyl hydrazide</name>
+        </chemical>
+        <chemical role="solvent" vol="50.000" volunit="ml">
+          <name>dichloromethane</name>
+        </chemical>
+        <technique library="Weigh -Solid - Balance"/>
+        <interrogation id="5a4b593c-b45b-4e1d-a712-0a6b6c5ffb8e" position="post" type="comment">
+          <content>What was the exact weight you used?</content>
+        </interrogation>
+      </operation>
+      <operation id="45af5325-f2bb-4146-b8ed-de1d50ce9ab7">
+        <text>Lower and secure the flask into an ice bath. Turn on the stirring to 500 rpm.</text>
+        <technique library="Transfer - Solid - Weigh boat / Paper"/>
+      </operation>
+      <operation id="db9ea33c-f5b0-4198-9967-36b95a01c771">
+        <text>Wait until the reaction solution temperature has cooled to 5 degrees.</text>
+      </operation>
+      <operation id="5e0c73a8-9d6f-41e6-8242-8024405dad0f">
+        <text>Stir the solution for 15 mins. Keep below 5 degrees throughout.</text>
+      </operation>
+      <operation id="c6730e35-190b-4805-ac9e-6ece4df38d23">
+        <text>Remove the cooling bath and allow the reaction to warm up to room temperature.</text>
+      </operation>
+    </group>
+    <group id="3515879d-9a37-4748-a98d-b5c5e85bde0d">
+      <title>Reaction execution</title>
+      <operation id="b3b5004e-4598-41aa-a1bb-e0975f772946">
+        <text>Measure 1.58 mL of triethylamine and transfer it into the reaction flask.</text>
+        <chemical role="reagent" vol="1.580" volunit="ml" moles="0.113">
+          <name>triethylamine</name>
+        </chemical>
+        <technique library="Measure - Liquid - Syringe"/>
+        <technique library="Transfer - Liquid - Syringe"/>
+      </operation>
+      <operation id="c8d2af1e-3137-4274-ad79-bc03de280cc1">
+        <text>Measure 1.18 mL of 1-naphthoyl chloride and transfer it into a glass sample vial. Measure out 3 mL of acetonitrile into the same glass sample vial.</text>
+      </operation>
+      <operation id="10bb3d36-ba6a-4431-a5e6-5d976338abc7">
+        <text>Add the solution from a syringe dropwise over 10 mins. Maintain temp between 1-5 degrees.</text>
+        <technique library="Measure - Liquid - Syringe"/>
+      </operation>
+      <operation id="fbc3fb87-380e-473a-89be-15c935552328">
+        <text>Allow the reaction to stir in an ice bath for 30 minutes. (set up TLC at approx. 20min ethyl acetate: hexane 1:1) and complete by 30min.</text>
+      </operation>
+      <operation id="e36ae5d0-24b5-4ea9-a952-c5cbf26dafc7">
+        <text>Remove the cooling bath and allow the reaction to warm up to room temperature.</text>
+      </operation>
+      <operation id="4768636a-1623-46db-95ea-1c12158d09e6">
+        <text>Remove DeviceX from the reaction flask and evaporate solvent.</text>
+        <chemical role="quenching-solution" vol="10.000" volunit="ml">
+          <name>saturated NH&#8324;Cl solution</name>
+        </chemical>
+      </operation>
+      <operation id="2189e82b-cbd2-4860-b452-1eeaa25a197a">
+        <text>Quench with 10 mL of saturated NH&#8324;Cl solution.</text>
+      </operation>
+    </group>
+  </step>
+  <step type="isolation" label="" id="99c1f628-01f7-4166-9e39-cf32ba0479a3">
+    <description>Quenching and workup</description>
+    <group id="bb2cf607-5a1b-4a98-8023-e1330e0b2407">
+      <title>Organic workup</title>
+      <operation id="217200f8-f127-48e1-80c3-ef7869a3066f">
+        <text>Pour 30 mL of water into an appropriately sized separating funnel and reaction mixture and invert and release gas 14 times.</text>
+        <chemical role="washing-solution" vol="30.000" volunit="ml">
+          <name>water</name>
+        </chemical>
+        <technique library="Isolate / Purify - Liquid - Liquid seperation or organic workup"/>
+      </operation>
+      <operation id="2ffea4bb-cbf3-4b44-830a-87e32cb7aa5c">
+        <text>Separate the organic and aqueous layer. Wash the organic layer with (2 x 10 mL) of 10% aqueous citric acid solution. Separate and wash the new organic layer with (2 x 5 mL) of Saturated sodium chloride solution.</text>
+        <chemical role="washing-solution" vol="20.000" volunit="ml">
+          <name>10% aqueous citric acid solution</name>
+        </chemical>
+        <chemical role="washing-solution" vol="10.000" volunit="ml">
+          <name>saturated sodium chloride solution</name>
+        </chemical>
+        <technique library="Measure - Liquid - Volumetric cylinder"/>
+      </operation>
+    </group>
+    <group id="8ce53ca7-1d33-4a5f-97e1-755936149510">
+      <title>Drying</title>
+      <operation id="0f5ff3e2-32c0-4fb8-9623-874728f45005">
+        <text>Separate organic layer into a clean conical flask and add 3 g of sodium sulfate to the flask.</text>
+        <chemical role="drying-agent" mass="3.000" massunit="g">
+          <name>sodium sulfate</name>
+        </chemical>
+        <technique library="Transfer - Liquid - Pour / Gravity"/>
+      </operation>
+      <operation id="1590bca1-a11d-431b-a321-8c5ca23e1f74">
+        <text>Pack a glass funnel with a cotton wool plug and place it on top of the pre-weighed round-bottomed flask. Pour the solution through the funnel into the round-bottomed flask and rinse with 5 mL of dichloromethane.</text>
+        <chemical role="solvent" vol="50.000" volunit="ml">
+          <name>dichloromethane</name>
+        </chemical>
+        <technique library="Weight"/>
+      </operation>
+      <operation id="e67a704b-604f-4a83-9b55-3061bfe29ea0">
+        <text>Evaporate the solvent under reduced pressure.</text>
+        <tip>The rotary evaporator is set to 150 mmHg at 40 &#176;C.</tip>
+        <technique library="Dry - Liquid - Rotary evaporator (rotavap)"/>
+        <expectation>The crude product is a pale yellow solid.</expectation>
+      </operation>
+      <operation id="b6aaacb2-f2c9-409f-97eb-468b2a634cce">
+        <text>Weigh the flask containing the dry crude product.</text>
+        <technique library="Weigh -Solid - Balance"/>
+        <expectation>25.6 g of solid after concentrating in vacuo.</expectation>
+        <interrogation id="fe31eb5d-2ad7-49c1-b991-22014c68177c" position="post" type="comment">
+          <content>What was the weight of the flask?</content>
+        </interrogation>
+      </operation>
+    </group>
+  </step>
+  <step type="purification" label="" id="6fc29d58-c7f8-44fc-a6f9-91543768934c">
+    <description>Recrystallisation of N-(1-Naphthoyl)-4-methylbenzenesulfonohydrazide</description>
+    <group id="4b4363f7-03d4-4172-a952-488024ddbb3b">
+      <title>Recrystallisation</title>
+      <operation id="0ec85e35-332f-4f51-be82-d2a8479f5d3e">
+        <text>Add 35mL boiling dichloromethane to the crude and dissolve then transfer to a conical flask.</text>
+        <chemical role="solvent" vol="50.000" volunit="ml">
+          <name>dichloromethane</name>
+        </chemical>
+      </operation>
+      <operation id="d914a28a-b104-46c7-9f75-ae75310bf2d5">
+        <text>Add over a period of 5 minutes 25 mL hexane to the solution containing the product</text>
+        <chemical role="solvent" vol="25.000" volunit="ml">
+          <name>hexane</name>
+        </chemical>
+      </operation>
+      <operation id="91b506dc-1eb0-4bbf-b508-3dc713d06100">
+        <text>Leave the flask to cool for 1 hour in an ice bath. Prepare 5 mL ICE COLD 50% solution of dichloromethane in hexane.</text>
+      </operation>
+      <operation id="e0c88a55-7de5-412c-8053-8fa7559f41a5">
+        <text>Filter the solution through the B&#252;chner flask and wash with the ice cold 5 mL of a 50% solution of dichloromethane in hexane.</text>
+        <tip>Funnel diameter 90 mm, medium porosity fritted disk.</tip>
+        <technique library="Isolate / Purify - Solid - Vaccum filtration / Buchner"/>
+        <technique library="Dry - Solid - Suction /vacuum"/>
+        <precondition>The solvent mixture must be ice-cooled prior to use</precondition>
+      </operation>
+      <operation id="03a8949c-783d-4eee-a42d-e2ad523b1767">
+        <text>Dry the product under vacuum and then overnight in a CaCl desiccator.</text>
+        <tip>50 &#176;C, 6.0 x 10-&#178; mmHg, 3 h</tip>
+      </operation>
+      <operation id="7137c0ae-b9f4-4b10-a56a-4efc562790ca">
+        <text>Weigh the pure solid, write down yield and purity.</text>
+        <expectation>What was the weight of the solid?</expectation>
+      </operation>
+    </group>
+  </step>
+  <step type="analysis" label="" id="5b7a66da-a5b0-45f2-867e-a001a0199be9">
+    <description>Analysis of N-(1-Naphthoyl)-4-methylbenzenesulfonohydrazide</description>
+    <group id="01924edb-f218-4f72-a92c-8aeb162b50ac">
+      <title>Yield and Purity</title>
+      <operation id="6708b5bf-1409-42a2-9c17-22ff1ec000b9">
+        <text>Write down the yield of the reaction.</text>
+        <expectation>15.8 g, 62% yield.</expectation>
+        <interrogation id="f733b5de-7d12-4370-a53f-baf20f35156a" position="post" type="comment">
+          <content>Please enter the yield of the reaction in the following format: "@yield=xx%"</content>
+        </interrogation>
+      </operation>
+      <operation id="0a667d8d-5b53-4ffb-ae2c-04fdf7ebaff2">
+        <text>Write down the purity of the final product.</text>
+        <expectation>98.1% wt. by quantitative 1H NMR spectroscopy in CDCl&#8323;.</expectation>
+        <interrogation id="b70d187d-8b1b-443d-bbdd-3ee2b48fb684" position="post" type="comment">
+          <content>Please enter the purity of the final product in the following format: "@purity=xx%"</content>
+        </interrogation>
+      </operation>
+    </group>
+  </step>
+</pcml>
