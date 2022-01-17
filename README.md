@@ -10,7 +10,9 @@ All data was captured by [Deepmatter's DigitalGlassware®](https://deepmatter.io
 
 See the document `run_mappings.csv` in the root directory of this repo as a map of which groups performed each run.
 
-Information on mapping DeviceX's sensor names to human-readable equivalents can be found in the `devicex_mappings.csv` document.
+### Sensor Data
+
+Each PCRR document embeds all sensor data associated with a run. Information on mapping DeviceX's sensor names to human-readable equivalents can be found in the `devicex_mappings.csv` document. As a simple rule, any sensor ending with "I", "E", or "A" corresponds to the sensor being below the meniscus (_immersed_), above the fill level (_exposed_) or in the handle of DeviceX (_ambient_). All sensor data collected has been reported, but only some represent high level sensors user will be familiar with (e.e. temperature of solution). The CSV indicates which are these "primary" sensors.
 
 ## PCML
 
