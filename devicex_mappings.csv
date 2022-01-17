@@ -1,0 +1,36 @@
+﻿Shorthand Name,Description,Primary Sensor
+accDieTemp,Temperature of the accelerometer chip in Celcius,
+accX,"Acceleration on the X axis of the accelerometer chip, in G",
+accY,"Acceleration on the Y axis of the accelerometer chip, in G",
+accZ,"Acceleration on the Z axis of the accelerometer chip, in G",
+adcDieTemp,Temperature of analogue to digital converter chip in Celcius,
+dieIrTempE,"The temperature of the exposed IR temperature chip, in Celcius",
+dieIrTempI,"The temperature of the immersed IR temperature chip, in Celcius",
+gyroX,"Rotation of the device on the X axis, as measured by the accelerometer chip",
+gyroY,"Rotation of the device on the Y axis, as measured by the accelerometer chip",
+gyroZ,"Rotation of the device on the Z axis, as measured by the accelerometer chip",
+irObjTempE,"The temperature measured by the exposed IR temperature chip, of the object (glass tube). This is the true temperature of the solution.",X
+irObjTempI,"The temperature measured by the immersed IR temperature chip, of the object (glass tube). This is the true temperature of the solution.",X
+magX,The X measurement of the magnetometer,
+magY,The Y measurement of the magnetometer,
+magZ,The Z measurement of the magnetometer,
+pressureA,"The pressure measured at ambient level (battery pack/handle), in hPa",X
+pressureE,"The pressure measured at exposed level (just above liquid level), in hPa",X
+pressureTempA,The temperature of the ambient pressure sensor chip in Celcius,
+pressureTempE,The temperature of the exposed pressure sensor chip in Celcius,
+rawDarkReferenceE,Unused,
+rawDarkReferenceI,Unused,
+rawIrE,"The current/voltage measured by the exposed IR temperature chip, in picoamps, w.r.t chip temperature",
+rawIrI,"The current/voltage measured by the immersed IR temperature chip, in picoamps, w.r.t chip temperature",
+rawNirE,Unused,
+rawNirI,Unused,
+rawVisibleLightE,Unused,
+rawVisibleLightI,Unused,
+stirRate,"The stir rate, as calculated by the DC base on the magnetometer readings, in RPM",X
+thermistorTemperature,The temperature of the thermistor in the DX handle.,
+time,Unused,
+timestamp,"The timestamp, in UTC format, at which the data was received by the DC. Note this is not the same as the time it was generated on the DX itself",X
+uvaE,"The amount of UVA measured by the exposed sensor, in uW/cm2",X
+uvaI,"The amount of UVA measured by the immersed sensor, in uW/cm2",X
+uvbE,"The amount of UVB measured by the exposed sensor, in uW/cm2",X
+uvbI,"The amount of UVB measured by the immersed sensor, in uW/cm2",X
